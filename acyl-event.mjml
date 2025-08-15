@@ -1,0 +1,204 @@
+<mjml>
+  <mj-head>
+    <mj-title>ACYL x Creator Tech Week: Farcaster App Workshop + Dark Side of the Rainbow</mj-title>
+    <mj-attributes>
+      <mj-text font-family="Helvetica, Arial, sans-serif" color="#4D4D4D" />
+      <mj-button font-family="Helvetica, Arial, sans-serif" border-radius="4px" />
+      <mj-class name="s-col" padding="0" />
+      <mj-class name="s-img" padding="0" align="center" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .s-label{
+        white-space:nowrap;
+        word-break:keep-all;
+        overflow-wrap:normal;
+        -ms-word-break: normal;
+        hyphens:none;
+      }
+
+      .sponsors-table{
+        width:100%;
+        table-layout:fixed;
+        border-collapse:separate;
+        border-spacing:0;
+        margin:0 auto;
+      }
+      .sponsors-td{
+        width:14.285%;
+        padding:0 6px;
+        text-align:center;
+        vertical-align:top;
+      }
+      .sponsors-td:first-child{ padding-left:0; }
+      .sponsors-td:last-child{  padding-right:0; }
+
+      .sponsors-td img{
+        display:block;
+        margin:0 auto;
+        height:54px !important; 
+        width:auto !important;
+        max-width:100% !important;
+        -ms-interpolation-mode:bicubic;
+      }
+      .sponsors-td .s-label{
+        display:block;
+        font-size:14px;
+        padding-top:8px;
+      }
+
+      .pnc-td img{
+        height:60px !important;        
+        border-radius:6px !important;
+      }
+      .pnc-row td{
+        padding-top:18px !important;   
+      }
+
+      @media only screen and (max-width:480px){
+        .sponsors-td{
+          display:inline-block !important;
+          width:50% !important;
+          box-sizing:border-box;
+          padding:0 8px 16px !important;
+        }
+        .sponsors-table{
+          table-layout:auto !important;
+        }
+        .pnc-td{
+          display:block !important;
+          width:100% !important;       
+          padding:0 8px 0 !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF" width="820px">
+    <!-- Header -->
+    <mj-section background-color="#077F5F" padding="20px 0">
+      <mj-column>
+        <mj-text align="center" color="#FFFFFF" font-size="24px" font-weight="bold">
+          ACYL × Creator Tech Week: Farcaster App Workshop + Dark Side of the Rainbow
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero image -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image
+          src="https://www.creatortechweek.com/farcasterposter.png"
+          alt="ACYL × Creator Tech Week: Farcaster App Workshop + Dark Side of the Rainbow"
+          fluid-on-mobile="true"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Event details + CTA -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-text font-size="16px" line-height="1.5">
+          <strong>Date:</strong> August 15, 2025<br/>
+          <strong>Time:</strong> 5:30 PM – 9:00 PM<br/>
+          <strong>Location:</strong> 406 N Sangamon St, Chicago, IL 60642, USA
+        </mj-text>
+        <mj-button
+          href="https://www.chaching.social/post/4LaBKcHIXjdRGrhK3WjL?utm_source=creatortechweek&utm_medium=email&utm_campaign=events&utm_content=farcaster"
+          background-color="#077F5F"
+          color="#FFFFFF"
+          font-size="16px"
+          padding="15px 25px"
+        >
+          Get Your Ticket
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Body copy -->
+    <mj-section padding="0 20px 20px">
+      <mj-column>
+        <mj-text font-size="16px" line-height="1.5">
+          Roll up your sleeves for a hands-on Farcaster mini-app workshop—set up and fund a wallet, create your PODPLAYR profile (see your NFTs pop in), jump into PODBALL, and get familiar with Tipn and Hopscotch. Then we dim the lights for a synced screening of <em>The Wizard of Oz</em> + <em>Dark Side of the Moon</em>—a weird, wonderful audio-visual trip. Drinks, snacks, community vibes, and surprises all night.<br/><br/>
+          <strong>Schedule:</strong><br/>
+          5:30pm – Networking &amp; drinks<br/>
+          5:50pm – Welcome &amp; announcements<br/>
+          6:00pm – Farcaster workshop (Goldie &amp; Sazon)<br/>
+          6:30pm – Tipn (Kompreni)<br/>
+          6:40pm – Hopscotch (Morgan)<br/>
+          6:50pm – Popcorn &amp; settle in<br/>
+          7:00pm – Dark Side of the Rainbow<br/>
+          8:45pm – Final words &amp; wrap-up
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sponsors -->
+    <mj-section padding="20px 0" background-color="#FFFFFF">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="22px" font-weight="bold" padding-bottom="16px">
+          Sponsors
+        </mj-text>
+
+        <mj-table css-class="sponsors-table" align="center">
+          <tr>
+            <td class="sponsors-td" style="width:16.66%;">
+              <a href="https://drivecapital.com/?utm_source=creatortechweek&utm_medium=email&utm_campaign=sponsors&utm_content=drivecapital">
+                <img src="https://creatortechweek.com/drivecapital.jpeg" alt="Drive Capital" />
+              </a>
+              <span class="s-label">Drive Capital</span>
+            </td>
+            <td class="sponsors-td" style="width:16.66%;">
+              <a href="https://www.cube.exchange/?utm_source=creatortechweek&utm_medium=email&utm_campaign=sponsors&utm_content=cubegroup">
+                <img src="https://creatortechweek.com/cubexch.jpeg" alt="Cube Group" />
+              </a>
+              <span class="s-label">Cube Group</span>
+            </td>
+            <td class="sponsors-td" style="width:16.66%;">
+              <a href="https://www.workboxcompany.com/?utm_source=creatortechweek&utm_medium=email&utm_campaign=sponsors&utm_content=workbox">
+                <img src="https://creatortechweek.com/workboxlogo.jpeg" alt="Workbox" />
+              </a>
+              <span class="s-label">Workbox</span>
+            </td>
+            <td class="sponsors-td" style="width:16.66%;">
+              <a href="https://www.youtube.com/@breakbeatmedia?utm_source=creatortechweek&utm_medium=email&utm_campaign=sponsors&utm_content=breakbeatmedia">
+                <img src="https://creatortechweek.com/breakbeatnew.jpg" alt="Breakbeat Media" />
+              </a>
+              <span class="s-label">Breakbeat</span>
+            </td>
+            <td class="sponsors-td" style="width:16.66%;">
+              <a href="https://technexus.com/?utm_source=creatortechweek&utm_medium=email&utm_campaign=sponsors&utm_content=technexus">
+                <img src="https://creatortechweek.com/technexus_logo.jpeg" alt="TechNexus" />
+              </a>
+              <span class="s-label">TechNexus</span>
+            </td>
+            <td class="sponsors-td" style="width:16.66%;">
+              <a href="https://www.s2expressgrill.com/?utm_source=creatortechweek&utm_medium=email&utm_campaign=sponsors&utm_content=s2grills">
+                <img src="https://www.creatortechweek.com/s2grill.png" alt="S2 Grills" />
+              </a>
+              <span class="s-label">S2 Grills</span>
+            </td>
+          </tr>
+
+          <tr class="pnc-row">
+            <td class="sponsors-td pnc-td" colspan="6" align="center" style="width:100%;">
+              <a href="https://www.pnc.com/en/personal-banking.html?utm_source=creatortechweek&utm_medium=email&utm_campaign=sponsors&utm_content=pncbank">
+                <img src="https://www.creatortechweek.com/pncbanknew.jpeg" alt="PNC" />
+              </a>
+              <span class="s-label">PNC</span>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#F1F1F1" padding="20px">
+      <mj-column>
+        <mj-text font-size="12px" align="center">
+          You’re receiving this because you signed up for Chicago Creator Tech Week.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
